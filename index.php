@@ -48,12 +48,14 @@
                         }
 
                         else {
-                            $mailInfo = "Le mail n'est pas valide !";
+                            // $mailInfo = "Le mail n'est pas valide !";
+                            echo $mailInfo;
                         }
                         }
 
                         else {
-                        $mailInfo = "Le champ du mail est vide";
+                        // $mailInfo = "Le champ du mail est vide";
+                        echo $mailInfo;
                         } ?>
                     </div>
                 </div>
@@ -73,7 +75,7 @@
                     }
                 
                     else {
-                        $telInfo = "Le champ du téléphone est vide";
+                       echo $telInfo;
                     } ?>
                     </div>
                 </div>
